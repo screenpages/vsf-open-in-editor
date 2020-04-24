@@ -1,0 +1,9 @@
+{
+    "name": "vsf-open-in-editor",
+    "version": "1.0.0",
+    "license": "MIT",
+    "private": true,
+    "devDependencies": {
+       "launch-editor-middleware": "^2.2.1"
+    }
+  }
