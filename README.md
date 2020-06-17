@@ -8,7 +8,7 @@ This is a drop in Vue Storefront module that allows component code to be opened 
 
 
 ## Prerequisite
-You must have the cli command for your editor installed that allows you to loaunch the editor form the terminal. 
+You must have the cli command for your editor installed that allows you to launch the editor form the terminal. 
 
 This setup varies, please refer to the documentation for you editor.
 
@@ -26,7 +26,7 @@ examples:
 
 [Vue.js devtools - for Firefox](https://addons.mozilla.org/en-GB/firefox/addon/vue-js-devtools/)
 
-2. Install this module into your Vue Store Front project under `src/modules/`
+2. Install this module into your Vue Storefront project under `src/modules/`
 ````
 git clone https://github.com/screenpages/vsf-open-in-editor.git src/modules/vsf-open-in-editor
 ````
@@ -34,10 +34,10 @@ git clone https://github.com/screenpages/vsf-open-in-editor.git src/modules/vsf-
 ````
 yarn install
 ```` 
-from the poject root
+from the project root
 
 
-4. Default editor is VS Code (please see the table below for supported editors). 
+4. The default editor is VS Code (please see the table below for supported editors). 
 
 To change the editor, add the follwing to your `config/local.json`
 ````
@@ -46,14 +46,14 @@ To change the editor, add the follwing to your `config/local.json`
   }
   ...
 ````
-and change the *editor* value according to the table.
+and change the *editor* value according to the table below.
 
 5. Start dev server as normal
 ````
 yarn dev
 ````
 
-Once enabled the 'Open in editor' link in Vue.js devtools will open to the correct local file for the component you have selected.
+Once enabled the 'Open in editor' link in Vue.js devtools will open to the correct local source file for the component you have are inspecting in the browser.
 
 
 ### Supported editors
@@ -79,5 +79,5 @@ Once enabled the 'Open in editor' link in Vue.js devtools will open to the corre
 | `webstorm` | [WebStorm](https://www.jetbrains.com/webstorm/) |✓|✓|✓|
 
 ### Acknowledgements
-This projects is based on the hard work of Evan You:
+This project is based on the hard work of Evan You:
 [Launch Editor](https://github.com/yyx990803/launch-editor)
